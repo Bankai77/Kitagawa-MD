@@ -544,8 +544,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
-            ppgp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
+            pp = 'https://i.pinimg.com/736x/80/50/06/805006363313140f7d0697ce8a9f243b.jpg' // Assign default image URL
+            ppgp = 'https://i.pinimg.com/564x/d5/5a/f3/d55af382d2c752d9cd5e6f324be29537.jpg' // Assign default image URL
           } finally {
             let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
               .replace('@group', await this.getName(id))
@@ -562,7 +562,7 @@ export async function participantsUpdate({ id, participants, action }) {
             )}&memberCount=${encodeURIComponent(
               nthMember.toString()
             )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-              'https://cdn.wallpapersafari.com/71/19/7ZfcpT.png'
+              'https://images3.alphacoders.com/120/thumb-1920-1203462.jpg'
             )}`
 
             try {
@@ -574,10 +574,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'ᴏʀᴇᴏ ᴛʜᴇ ʙɪsᴄᴜɪᴛ ʙᴏᴛ',
-                    body: 'welcome to Group',
+                    title: 'ᴋɪᴛᴀɢᴀᴡᴀ ᴛʜᴇ ᴀɴɪᴍᴇ ʙᴏᴛ',
+                    body: 'Welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
-                    sourceUrl: 'https://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y',
+                    sourceUrl: 'https://chat.whatsapp.com/KnOfHuspbLh4Cd0ofYGqdQ',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
@@ -591,7 +591,7 @@ export async function participantsUpdate({ id, participants, action }) {
       }
       break
 
-    case 'remove':
+   /* case 'remove':
       if (chat.welcome) {
         let groupMetadata = (await this.groupMetadata(id)) || (conn.chats[id] || {}).metadata
         for (let user of participants) {
@@ -602,7 +602,7 @@ export async function participantsUpdate({ id, participants, action }) {
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
             pp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
-            ppgp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
+           ppgp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user').replace(
               '@user',
@@ -646,7 +646,7 @@ export async function participantsUpdate({ id, participants, action }) {
           }
         }
       }
-      break
+      break  */
     case 'promote':
       const promoteText = (
         chat.sPromote ||
