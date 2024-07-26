@@ -31,9 +31,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       mentionedJid: [m.sender],
       externalAdReply: {
         title: 'I AM ALIVE',
-        body: 'KITAGAWA MD',
+        body: 'ᴋɪᴛᴀɢᴀᴡᴀ ᴛʜᴇ ᴀɴɪᴍᴇ ʙᴏᴛ',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/LHfJmKoYVJp1gDX58P55CY',
+        sourceUrl: 'https://chat.whatsapp.com/KnOfHuspbLh4Cd0ofYGqdQ',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
