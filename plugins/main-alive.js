@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         title: 'I AM ALIVE',
         body: 'ᴋɪᴛᴀɢᴀᴡᴀ ᴛʜᴇ ᴀɴɪᴍᴇ ʙᴏᴛ',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/KnOfHuspbLh4Cd0ofYGqdQ',
+        sourceUrl: 'https://chat.whatsapp.com/Hz5C06OZVkhLQ2vA3kp6GX',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
