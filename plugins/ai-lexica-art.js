@@ -14,7 +14,7 @@ try {
     let resul = randm.getRandom()
     await m.reply(wait)
     await conn.sendFile(m.chat, 
-    resul.src, text, maker + "\n*Creative:* " + resul.prompt + '\n\n https://github.com/shizothetechie/oreo-bot', m)
+    resul.src, text, maker + "\n*Creative:* " + resul.prompt + '\n\n https://github.com/Bankai77/oreo-bot', m)
     } catch (e) {
     throw e
     }
