@@ -2,26 +2,28 @@ let handler = async m =>
   m.reply(
     `
 
-≡  ᴏʀᴇᴏ ᴛʜᴇ ʙɪsᴄᴜɪᴛ ʙᴏᴛ GROUPS
+≡  ᴋɪᴛᴀɢᴀᴡᴀ ᴛʜᴇ ᴀɴɪᴍᴇ ʙᴏᴛ GROUPS
 
 ─────────────
-▢ Join public bot group and support
-https://chat.whatsapp.com/LwLQab5mZVW6WWRbBPnDGC
+≡ *𝙻𝚎𝚝'𝚜 𝚜𝚑𝚊𝚛𝚎 𝚘𝚞𝚛 𝚙𝚊𝚜𝚜𝚒𝚘𝚗 𝚏𝚘𝚛 𝙰𝚗𝚒𝚖𝚎, 𝙼𝚊𝚗𝚐𝚊 𝚊𝚗𝚍 𝙹𝚊𝚙𝚊𝚗𝚎𝚜𝚎 𝚌𝚞𝚕𝚝𝚞𝚛𝚎...𝙲𝚘𝚖𝚎 𝚘𝚗 𝙹𝚘𝚒𝚗 𝚞𝚜 !*
+
+▢ Group 1
+https://chat.whatsapp.com/KxZub59uGIN32iSkeDTJW7
 
 ▢ Group 2
-https://chat.whatsapp.com/JnBffMgpiCgBAra3GQC9rW
+https://chat.whatsapp.com/KbRxTuGfXZVEGIZTbWFcaJ
 
 ─────────────
-≡ Disabled links? enter here! 
+≡ *𝙳𝚒𝚜𝚊𝚋𝚕𝚎𝚍 𝚕𝚒𝚗𝚔𝚜? 𝚎𝚗𝚝𝚎𝚛 𝚑𝚎𝚛𝚎!* 
 
 ▢ Group WhatsApp 
- https://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y
+ https://chat.whatsapp.com/KnOfHuspbLh4Cd0ofYGqdQ
 ─────────────
 ▢ *Owner instagram*
- https://instagram.com/shizo_the_techie
+ https://instagram.com/Bankai77
 
 ▢ *YouTube*
-• https://www.youtube.com/@errormodsyt
+• https://youtu.be/WMdXTiLrT2g?si=CmLBrxAu4ZdWtLyS
 
 
 `.trim()
