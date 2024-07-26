@@ -23,7 +23,7 @@ I'm sorry *@${m.sender.split('@')[0]}*  you will be kicked out of the group ${is
     )
     if (isBotAdmin && chat.antiLink) {
       await conn.sendMessage(m.chat, { delete: m.key })
-      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'warn')
     } else if (!chat.antiLink) return //m.reply('')
   }
   return !0
