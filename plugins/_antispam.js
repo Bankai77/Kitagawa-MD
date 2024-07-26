@@ -52,14 +52,14 @@ export async function before(m) {
     // If the sender's spam count reaches 5 or more, mark the sender as banned and set a 5-second cooldown.
     if (this.spam[m.sender].count >= 5) {
       users[m.sender].banned = true
-      this.spam[m.sender].lastspam = now + 5000
+      this.spam[m.sender].lastspam = now + 10000
 
       // Schedule a timeout to unban the user and reset their spam count after 5 seconds.
       setTimeout(() => {
         users[m.sender].banned = false
         this.spam[m.sender].count = 0
-        m.reply(`✅ *Cooldown finished*\nYou can send messages again.`)
-      }, 5000)
+        m.reply(`✅ *Cooldown finished*\nYou can send messages again, Darling! 🥰`)
+      }, 10000)
 
       // Notify the sender about the spamming and the remaining cooldown time.
       const message =
