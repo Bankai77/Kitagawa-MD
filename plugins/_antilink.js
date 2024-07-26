@@ -22,12 +22,9 @@ Hey, *@${m.sender.split('@')[0]}*, *Don't send group links Baka!* 😒 ${isBotAd
       { mentions: [m.sender] }
     )
     if (isBotAdmin && chat.antiLink) {
-      // Remove the participant from the group
-      global.db.data.users[m.sender].warn += 1
-       await conn.sendMessage(m.chat, {
-        delete: { remoteJid: m.chat, fromMe: false, id: messageId, participant: removeParticipant },
-      })
-    }
+      await conn.sendMessage(m.chat, { delete: m.key })
+      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'ban')
+    } else if (!chat.antiLink) return //m.reply('')
   }
   return !0
 }
