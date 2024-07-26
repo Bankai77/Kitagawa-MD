@@ -14,10 +14,10 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
     }
     await conn.reply(
       m.chat,
-      `*≡ Link Detected*
+      `*⚠️ Link Detected*
             
-We do not allow links from other groups 
-I'm sorry *@${m.sender.split('@')[0]}*  you will be kicked out of the group ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`,
+I don't allow links from other damn groups 
+Hey, *@${m.sender.split('@')[0]}*, *Don't send group links Baka!* 😒 ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`,
       null,
       { mentions: [m.sender] }
     )
