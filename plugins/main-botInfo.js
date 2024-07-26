@@ -66,13 +66,13 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 *≡ OWNER*
 ▢ Instagram :
-  • https://instagram.com/shizo_the_techie
+  • https://www.instagram.com/sr_ai_arka/
 ▢ GitHub :
-  • https://github.com/shizothetechie
+  • https://github.com/Bankai77
 ▢ YouTube : 
-  • https://youtube.com/@errormodsyt
+  • https://youtu.be/4_q0MhBpKAk?si=A4R3-bT0twLua5Wf
 ▢ Bot Tutorial: 
-  • https://youtu.be/c9FefNeYruI?si=zFaHI2VivaBZAVQr
+  • https://www.youtube.com/watch?v=-RTGnl7ktSc&list=PLg4ez-XXTcoPCUAGz2TDbjZqzwjUIgSAu
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
