@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   conn.sendMessage(
     m.chat,
     {
-      video: (url: url),
+      video: {url: url},
       caption: `(${name2}) ${command} ${name}`,
       gifPlayback: true,
       gifAttribution: 0,
