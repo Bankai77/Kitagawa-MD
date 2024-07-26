@@ -21,7 +21,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
     const { title, url, thumbnail } = result;
 
-    const captvid = '*Chotto matte, I am sending the audio...*';
+    const captvid = '*Chotto matte, I am sending the audio...*🥰';
     const sourceUrl = "https://chat.whatsapp.com/KnOfHuspbLh4Cd0ofYGqdQ";
 
     conn.reply(m.chat, captvid, m, {
