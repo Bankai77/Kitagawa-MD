@@ -1,8 +1,8 @@
 let handler = async (m, { conn, usedPrefix }) => {
   if (!global.db.data.chats[m.chat].nsfw)
-    throw `🚫 group doesnt supprt nsfw \n\n enable it by \n*${usedPrefix}enable* nsfw`
+    throw `🚫 Don't be pervert Baka! This is not a NSFW enabled group 😒 \n\n enable it by \n*${usedPrefix}enable* nsfw`
   let user = global.db.data.users[m.sender].age
-  if (user < 17) throw m.reply(`❎ uneed to be atleast 18 years`)
+  if (user < 18) throw m.reply(`❎ Sorry darling, you need to be more mature to play with me 😇`)
 
   m.react(rwait)
   let nsfwCommands = [
@@ -83,13 +83,13 @@ let handler = async (m, { conn, usedPrefix }) => {
   ]
 
   let message = `
-  *NSFW Commands Menu* 
+  🥵 *NSFW Commands Menu* 🥵
   
   Here is the list of available commands for NSFW content. Use the prefix "${usedPrefix}" followed by the command name:
   
   ${nsfwCommands.map(command => `${usedPrefix}${command}`).join('\n')}
   
-  Note: These commands are only for those who are 18+.
+  Note: These commands are only for those who are mature enough to play with me 🤭.
   `
 
   console.log('Sending message...')
