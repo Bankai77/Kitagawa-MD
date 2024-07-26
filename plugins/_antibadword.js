@@ -24,12 +24,12 @@ export async function before(m, { isAdmin, isBotAdmin }) {
       '☠️  ☠️  ☠️  ☠️  ☠️', // Extremely toxic!
     ]
     var toxicityVerdict = [
-      'You are so friendly. Very welcoming to know you!',
-      'You are not too toxic, is it fun?',
-      'You appear to be toxic. Calm down!',
-      "Don't be so toxic. You can relax!",
-      "There's nothing more I could say, you're totally the most toxic person in the world!",
-      'Your toxic meter also goes above 100%.',
+      'You are so friendly. Very welcoming to know you! 🥰',
+      'You are not too toxic, is it fun? 😊',
+      'You appear to be toxic. Calm down! 🤫',
+      "Don't be so toxic. Relax, Baka! 😒",
+      "There's nothing more I could say, you're totally the most toxic person in the world! 🤧",
+      'Your toxic meter also goes above 100%. 😵',
     ]
 
     const toxicityPercentage = Number(analysisResult.toxicity * 100).toFixed(2)
