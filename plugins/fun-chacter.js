@@ -24,6 +24,18 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
     'Hot',
     'Gorgeous',
     'Cute',
+    'Hentai-Lover',
+    'Otaku',
+    'Nerd',
+    'Waifuist',
+    'Wet-Dreamer',
+    'Tsundere',
+    'Fanboy',
+    'Fangirl',
+    'Otome-Gamer',
+    'AMV-Editor',
+    'Cosplayer',
+    'Porn-Lover',
   ]
   const userCharacterSeletion = userChar[Math.floor(Math.random() * userChar.length)]
 
