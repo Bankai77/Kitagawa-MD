@@ -3,9 +3,9 @@ import { xnxxSearch, xnxxdl } from '../lib/scraper.js'
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let chat = global.db.data.chats[m.chat]
   if (!chat.nsfw)
-    throw `🚫 This group does not support NSFW content.\n\nTo turn it on, use: *${usedPrefix}enable* nsfw`
+    throw `🚫 Don't be pervert Baka! This is not a NSFW enabled group 😒 \n\n enable it by \n*${usedPrefix}enable* nsfw`
   let user = global.db.data.users[m.sender].age
-  if (user < 18) throw `❎ You must be 18 years or older to use this feature.`
+  if (user < 18) throw `❎ Sorry darling, you need to be more mature to play with me 😇`
   if (!text)
     throw `✳️ What do you want to search?\n📌 Usage: *${usedPrefix + command} <search>*\n\nExample: Hot desi bhabi or you can use a link as well\nExample: .xnxx link *`
 
