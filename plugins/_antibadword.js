@@ -70,7 +70,7 @@ export async function before(m, { isAdmin, isBotAdmin }) {
 async function Analyze(text) {
   try {
     const result = await axios.post(
-      'https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key=AIzaSyDh6d2S3S4zOuZSgyySRcnj8uZMNJ6kdFQ',
+      'https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key=AIzaSyCbIpw7aqXT5CzDFP70N6CExTbheiXFQRw',
       {
         comment: {
           text: text,
