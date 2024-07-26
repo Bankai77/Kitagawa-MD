@@ -38,7 +38,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     m.chat,
     {
       video: gifToVideoBuffer,
-      caption: `@${name2.split('@')[0]} ${command} @${name.split('@')[0]}`,
+      caption: `*@${m.sender.split('@')[0]} ${command}ed @${who.split('@')[0]}*`,
       gifPlayback: true,
       gifAttribution: 0,
     },
