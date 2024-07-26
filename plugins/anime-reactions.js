@@ -38,7 +38,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     m.chat,
     {
       video: gifToVideoBuffer,
-      caption: `*${name2} ${command} ${name}*`,
+      caption: `${name2} ${command} ${name}`,
       gifPlayback: true,
       gifAttribution: 0,
     },
