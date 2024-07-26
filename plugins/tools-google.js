@@ -42,7 +42,7 @@ handler.before = async (m, { conn }) => {
 
     const response = await (
       await fetch(
-        `https://api.apiflash.com/v1/urltoimage?access_key=7eea5c14db5041ecb528f68062a7ab5d&wait_until=page_loaded&url=${selectedUrl}`
+        `https://api.apiflash.com/v1/urltoimage?access_key=d65313cf2d3b4acf8b16bd80ae003368&wait_until=page_loaded&url=${selectedUrl}`
       )
     ).buffer()
 
