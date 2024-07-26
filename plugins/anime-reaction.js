@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   let json = await reaction.json();
   let { url } = json
   const gifBuffer = await getBuffer(url)
-  const gifToVideoBuffer = await GIFBufferToVideoBuffer(gifBuffer)
+  const gifToVideoBuffer = await GIFBufferToVideoBuffer(gifBuffer);
 
   conn.sendMessage(
     m.chat,
