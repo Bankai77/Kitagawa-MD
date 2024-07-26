@@ -38,7 +38,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     m.chat,
     {
       video: gifToVideoBuffer,
-      caption: `@${m.sender.split('@')[0]} ${command}ed @${m.who.split('@')[0]}`,
+      caption: `@${m.sender.split('@')[0]}* ${command} @${m.chat.split('@')[0]}`,
       gifPlayback: true,
       gifAttribution: 0,
     },
@@ -64,7 +64,7 @@ handler.help = [
   'blush @tag',
   'smile @tag',
   'wave @tag',
-  'highfive @tag',
+  'hifi @tag',
   'handhold @tag',
   'nom @tag',
   'bite @tag',
@@ -79,7 +79,7 @@ handler.help = [
 ]
 
 handler.command =
-  /^(bully|cuddle|cry|hug|awoo|kiss|lick|pat|smug|bonk|yeet|blush|smile|wave|highfive|handhold|nom|bite|glomp|slap|kill|happy|wink|poke|dance|cringe)$/i
+  /^(bully|cuddle|cry|hug|awoo|kiss|lick|pat|smug|bonk|yeet|blush|smile|wave|hifi|handhold|nom|bite|glomp|slap|kill|happy|wink|poke|dance|cringe)$/i
 handler.group = true
 
 export default handler
