@@ -577,7 +577,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     title: 'ᴋɪᴛᴀɢᴀᴡᴀ ᴛʜᴇ ᴀɴɪᴍᴇ ʙᴏᴛ',
                     body: 'Welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
-                    sourceUrl: 'https://chat.whatsapp.com/KnOfHuspbLh4Cd0ofYGqdQ',
+                    sourceUrl: 'https://chat.whatsapp.com/Hz5C06OZVkhLQ2vA3kp6GX',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
