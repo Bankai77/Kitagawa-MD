@@ -18,12 +18,22 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!reaction.ok) throw await reaction.text();
   
   let json = await reaction.json();
-  let { url } = json;
+  let { url } = json
+  const gifBuffer = await getBuffer(url)
+  const gifToVideoBuffer = await GIFBufferToVideoBuffer(gifBuffer)
 
-conn.sendMessage(m.chat, { video: { url: url }, gifPlayback: true, caption: `${name2} ${command}ed ${name}`, mentions: [m.sender] }, { quoted: m })
+  conn.sendMessage(
+    m.chat,
+    {
+      video: gifToVideoBuffer,
+      caption: `(${name2}) ${command} ${name}`,
+      gifPlayback: true,
+      gifAttribution: 0,
+    },
+    { quoted: m }
+  )
 
-
-  m.react('☺️'); 
+  m.react('☺️')
 }
 
 handler.tags = ['reaction'];
