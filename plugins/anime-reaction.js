@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   let json = await reaction.json();
   let { url } = json;
 
-conn.sendMessage(m.chat, { video: { url: url }, gifPlayback: true, caption: `(${name2}) ${command} ${name}`, mentions: [m.sender] }, { quoted: m })
+conn.sendMessage(m.chat, { video: { url: url }, gifPlayback: false, caption: `${name2} ${command} ${name}`, mentions: [m.sender] }, { quoted: m })
 
 
   m.react('☺️'); 
