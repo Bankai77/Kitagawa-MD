@@ -14,7 +14,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   let name2 = conn.getName(m.sender);
   m.react(rwait);
 
-  let reaction = await fetch(`https://waifu.pics/api/sfw/${command}`);
+  let reaction = await fetch(` https://api.waifu.pics/sfw/${command}`);
   if (!reaction.ok) throw await reaction.text();
   
   let json = await reaction.json();
