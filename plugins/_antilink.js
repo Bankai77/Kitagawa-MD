@@ -14,7 +14,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
     }
     await conn.reply(
       m.chat,
-      `*⚠️ Link Detected*
+      `⚠️ *Link Detected* ⚠️
             
 I don't allow links from other damn groups 
 Hey, *@${m.sender.split('@')[0]}*, *Don't send group links Baka!* 😒 ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`,
@@ -22,9 +22,12 @@ Hey, *@${m.sender.split('@')[0]}*, *Don't send group links Baka!* 😒 ${isBotAd
       { mentions: [m.sender] }
     )
     if (isBotAdmin && chat.antiLink) {
-      await conn.sendMessage(m.chat, { delete: m.key })
-      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'warn')
-    } else if (!chat.antiLink) return //m.reply('')
+      // Remove the participant from the group
+      global.db.data.users[m.sender].warn += 1
+      return this.sendMessage(m.chat, {
+        delete: { remoteJid: m.chat, fromMe: false, id: messageId, participant: removeParticipant },
+      })
+    }
   }
   return !0
 }
