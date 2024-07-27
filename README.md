@@ -102,7 +102,7 @@
 
 
 
-## 🪄🍪🔥 INSTALL OREO-BOT ON TERMINAL
+## 🪄🍪🔥 INSTALL MARIN-KITAGAWA ON TERMINAL
 
 ##### Requirements for Terminal Setup
 ```
@@ -125,7 +125,7 @@ apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && pkg instal
 cd oreo-bot && node .
 ```
 
-## 🥵🔥 INSTALL OREO-BOT ON HEROKU (EASIEST WAY)
+## 🥵🔥 INSTALL MARIN-KITAGAWA ON HEROKU (EASIEST WAY)
 
 ##### Requirements For 1 click Setup 
 
