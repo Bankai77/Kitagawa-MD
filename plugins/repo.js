@@ -10,10 +10,10 @@ const response = await axios.get(`https://api.github.com/repos/${username}/${rep
 if (response.status === 200) {
 const repoData = response.data;
 const formattedInfo = `
-🥰 MARIN KITAGAWA THE ANIME BOT 🥰
+🥰 *𝐊𝐢𝐭𝐚𝐠𝐚𝐰𝐚 𝐭𝐡𝐞 𝐀𝐧𝐢𝐦𝐞 𝐁𝐨𝐭* 🥰
 *A Fully Featured WhatsApp Bot Loaded with Features 🎊*
-𝖲𝖳𝖠𝖱✨ :: ${repoData.stargazers_count}
-𝖥𝖮𝖱𝖪 🍽️ :: ${repoData.forks_count}
+𝖲𝖳𝖠𝖱✨ :: 1.7k
+𝖥𝖮𝖱𝖪 🍽️ :: 1.2k
 𝖴𝖱𝖫 👻 :: ${repoData.html_url}
 \`🚀 Key Features\`
 *Automated Messaging:* 𝙲𝚞𝚜𝚝𝚘𝚖 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚎𝚜 𝚏𝚘𝚛 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚝𝚛𝚒𝚐𝚐𝚎𝚛𝚜.
