@@ -2,17 +2,17 @@
 
 <center>
 
-<img alt=🪄🍪 height="300" src="https://i.imgur.com/RCMg1aL.jpg">
+<img alt=🪄🍪 height="300" src="https://w0.peakpx.com/wallpaper/551/290/HD-wallpaper-anime-my-dress-up-darling-marin-kitagawa-thumbnail.jpg">
 
 </center>
 
-<h1 align="center">OREO BOT</h1>
+<h1 align="center">MARIN-KITAGAWA-MD</h1>
 
 
 
 <p align="center">
 
- <a href="#"><img title="OREO-BOT" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="KITAGAWA-BOT" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
 </p>
 
@@ -28,14 +28,14 @@
 
 ## ```Connect With Me```
 
-<a href="https://api.whatsapp.com/send?phone=919637987574&text=hello+shizo+devs+❤️✨"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://api.whatsapp.com/send?phone=916296247464&text=hello+Arka+❤️✨"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 <a href="https://instagram.com/shizo_the_techie"><img src="https://img.shields.io/badge/Connect on instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 
 ## ```Bot Support Groups```
 
-<a href="https://chat.whatsapp.com/C7hcNLRf9s0GSGq7UiMulm"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://chat.whatsapp.com/LHfJmKoYVJp1gDX58P55CY"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 
-<a href="https://whatsapp.com/channel/0029VaCkzkr3wtb1uYWiRz2o"><img src="https://img.shields.io/badge/Follow Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://chat.whatsapp.com/LHfJmKoYVJp1gDX58P55CY"><img src="https://img.shields.io/badge/Follow Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 
 
 
@@ -79,12 +79,12 @@
 
 # 🔥 MAIN SETUP
 
-1. Fork The OREO-BOT Repository 
-<a href="https://github.com/shizothetechie/OREO-BOT/fork"><img title="OREO BOT" src="https://img.shields.io/badge/FORK OREO BOT-h?color=orange&style=for-the-badge&logo=stackshare"></a>
+1. Fork The MARIN-KITAGAWA-MD Repository 
+<a href="https://github.com/Bankai77/MARIN-KITAGAWA-MD/fork"><img title="MARIN-KITAGAWA-MD" src="https://img.shields.io/badge/FORK MARIN-KITAGAWA-MD-h?color=orange&style=for-the-badge&logo=stackshare"></a>
 
 
 
-2. Obtain session for Your Number
+4. Obtain session for Your Number
      <a href="https://shizo-wapair-connect.onrender.com/pair"><img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-h?color=blue&style=for-the-badge&logo=stackshare"></a><br>
  <a href="https://youtube.com/shorts/-xyT0ib8fis?si=Bpj6soGa7Y39LCKi"> View Tutorial</a><br>
 
@@ -146,10 +146,10 @@ cd oreo-bot && node .
 
 ## CREDITS 
 <div><button id="boton" type="button">Baileys - By ShizoDevs & adiwajshing</button></div>
-<a href="https://github.com/shizo-devs/shizoweb"><img src="https://github.com/shizo-devs.png" width="70" height="70" alt="adiwajshing"/></a>
+<a href="https://github.com/Bankai77/MARIN-KITAGAWA-MD"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
 
 <div><button id="boton" type="button">Base  - By Shizo The Techie (ShizoBot)</button></div>
-<a href="https://github.com/shizothetechie"><img src="https://github.com/shizothetechie.png" width="70" height="70" alt="adiwajshing"/></a>
+<a href="https://github.com/Bankai77"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
 
 
 
