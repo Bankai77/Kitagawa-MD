@@ -2,7 +2,7 @@
 
 <center>
 
-<img alt=🪄🍪 height="500" width="500" src="https://w0.peakpx.com/wallpaper/551/290/HD-wallpaper-anime-my-dress-up-darling-marin-kitagawa-thumbnail.jpg">
+<img alt=🪄🍪 height="400" width="700" src="https://w0.peakpx.com/wallpaper/551/290/HD-wallpaper-anime-my-dress-up-darling-marin-kitagawa-thumbnail.jpg">
 
 </center>
 
