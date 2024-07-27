@@ -1,18 +1,18 @@
-> **Warning**: Do not sell this script.
+> **Konnichiwa** fellow otakus...
 
 <center>
 
-<img alt=🪄🍪 height="300" src="https://w0.peakpx.com/wallpaper/551/290/HD-wallpaper-anime-my-dress-up-darling-marin-kitagawa-thumbnail.jpg">
+<img alt=🪄🍪 height="500" width="500" src="https://w0.peakpx.com/wallpaper/551/290/HD-wallpaper-anime-my-dress-up-darling-marin-kitagawa-thumbnail.jpg">
 
 </center>
 
-<h1 align="center">MARIN-KITAGAWA-MD</h1>
+<h1 align="center">KITAGAWA-MD</h1>
 
 
 
 <p align="center">
 
- <a href="#"><img title="KITAGAWA-BOT" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="KITAGAWA-MD" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
 </p>
 
@@ -65,7 +65,7 @@
 1. Customize the Given Codes according to Your System 🧑‍💻
 2. We are not responsible for any kind of Your loss 🤧
 3. Do not recode or modify obfuscated or encrypted codes to avoid errors & bugs 🐛
-4. Atleast Mention Name "Shizo The Techie" to appreciate my work 🥺
+4. Atleast Mention Name "Arka" to appreciate my work 🥺
 5. Do not sell ❌
 
 ---------
@@ -79,8 +79,8 @@
 
 # 🔥 MAIN SETUP
 
-1. Fork The MARIN-KITAGAWA-MD Repository 
-<a href="https://github.com/Bankai77/MARIN-KITAGAWA-MD/fork"><img title="MARIN-KITAGAWA-MD" src="https://img.shields.io/badge/FORK MARIN-KITAGAWA-MD-h?color=orange&style=for-the-badge&logo=stackshare"></a>
+1. Fork The KITAGAWA-MD Repository 
+<a href="https://github.com/Bankai77/KITAGAWA-MD/fork"><img title="KITAGAWA-MD" src="https://img.shields.io/badge/FORK MARIN-KITAGAWA-MD-h?color=orange&style=for-the-badge&logo=stackshare"></a>
 
 
 
@@ -102,7 +102,7 @@
 
 
 
-## 🪄🍪🔥 INSTALL MARIN-KITAGAWA ON TERMINAL
+## 🪄🍪🔥 INSTALL KITAGAWA-MD ON TERMINAL
 
 ##### Requirements for Terminal Setup
 ```
@@ -125,7 +125,7 @@ apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && pkg instal
 cd oreo-bot && node .
 ```
 
-## 🥵🔥 INSTALL MARIN-KITAGAWA ON HEROKU (EASIEST WAY)
+## 🥵🔥 INSTALL KITAGAWA-MD ON HEROKU (EASIEST WAY)
 
 ##### Requirements For 1 click Setup 
 
@@ -146,7 +146,7 @@ cd oreo-bot && node .
 
 ## CREDITS 
 <div><button id="boton" type="button">Baileys - By Arka</button></div>
-<a href="https://github.com/Bankai77/MARIN-KITAGAWA-MD"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
+<a href="https://github.com/Bankai77/KITAGAWA-MD"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
 
 <div><button id="boton" type="button">Base  - By Arka</button></div>
 <a href="https://github.com/Bankai77"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
