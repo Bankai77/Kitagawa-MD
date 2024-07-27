@@ -8,7 +8,7 @@ import path from 'path'
 let handler = async (m, { conn, text }) => {
   try {
     if (!text && !(m.quoted && m.quoted.text)) {
-      throw `Please provide some text or quote a message to get a response.`
+      throw `Please provide some text or quote a message to get a response, Darling 🥰`
     }
     if (!text && m.quoted && m.quoted.text) {
       text = m.quoted.text
@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
     if (!(who in global.db.data.users)) throw '✳️ The user is not found in my database'
     let userPfp = await conn
       .profilePictureUrl(who, 'image')
-      .catch(_ => 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/guru.jpg')
+      .catch(_ => 'https://www.pngfind.com/pngs/m/287-2878406_tokyo-ghoul-ken-kaneki-sticker-tokyoghoul-kanekiken-tokyo.png')
     let user = global.db.data.users[who]
     let { name } = global.db.data.users[who]
 
