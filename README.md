@@ -145,10 +145,10 @@ cd oreo-bot && node .
 
 
 ## CREDITS 
-<div><button id="boton" type="button">Baileys - By ShizoDevs & adiwajshing</button></div>
+<div><button id="boton" type="button">Baileys - By Arka</button></div>
 <a href="https://github.com/Bankai77/MARIN-KITAGAWA-MD"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
 
-<div><button id="boton" type="button">Base  - By Shizo The Techie (ShizoBot)</button></div>
+<div><button id="boton" type="button">Base  - By Arka</button></div>
 <a href="https://github.com/Bankai77"><img src="https://avatars.githubusercontent.com/u/175392109?v=4" width="70" height="70" alt="adiwajshing"/></a>
 
 
